@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Neucha';
+    src: local('Neucha Regular'), local('Neucha-Regular'),
+        url('Neucha.woff2') format('woff2'),
+        url('Neucha.woff') format('woff'),
+        url('Neucha.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
