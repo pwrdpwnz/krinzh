@@ -1,0 +1,283 @@
+@media (max-width: 1500px) {
+    .chicken-food {
+        background-size: 411px;
+    }
+}
+
+@media  (max-width: 1400px) {
+
+
+    .btn-responsive {
+        display: none;
+    }
+
+    .phone-btn {
+        display: flex;
+    }
+    .chicken-food {
+        background-size: 327px;
+    }
+
+    .chicken-food h1 {
+        font-size: 55px;;
+    }
+
+    .chicken-food h2 {
+        font-size: 23px;
+
+    }
+
+    .chicken-food__state-standard {
+        margin-left: 36px;
+    }
+
+    .chicken-food__title h2 span::before {
+        top: calc(-76% + 36px);
+    }
+
+    .state-standard__item p::before {
+        width: 106px;
+    }
+
+
+
+}
+
+@media (max-width: 1330px) {
+    .chicken-food {
+        background-size: 200px;
+        background-position:  left;
+    }
+}
+
+@media (max-width: 1200px) {
+
+
+    .nav-item {
+        margin-right: 15px;
+    }
+
+    .nav-link {
+        font-size: 12px;
+    }
+
+    .position__row img {
+        max-width: 675px;
+    }
+
+
+
+    .btn-responsive {
+        display: none!important;
+    }
+
+
+    .chicken-food {
+        margin-bottom: 50px;
+        padding-bottom: 50px;
+    }
+
+    .chicken-food-container {
+        flex-direction: row;
+        padding-left: 145px;
+    }
+    .chicken-food__state-standard {
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-left: 32px;
+
+    }
+    .chicken-food__state-standard p {
+        margin-right: 20px;
+    }
+
+    .state-standard__item::before {
+        width: 100px;
+    }
+
+    .state-standard__item p {
+        padding: 0;
+    }
+    .feedback__bg {
+        display: none;
+    }
+}
+
+@media (min-width: 1000px){
+    .hidden {
+        display: none;
+    }
+
+
+}
+
+@media (max-width: 1000px) {
+
+    .position__row img {
+        max-width: 477px;
+        height: 641px;
+    }
+
+    .nav-hidden {
+        display: none;
+    }
+
+    .chicken-food {
+        background: none;
+    }
+
+    .chicken-food__row {
+        margin: 0;
+    }
+
+    .chicken-food__title h4 {
+        text-align: left;
+    }
+    .chicken-food-container {
+        padding: 0;
+    }
+
+    .chicken-food-description {
+        text-align: left;
+    }
+    .chicken-food-description a {
+        margin-bottom: 30px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    body {
+        position: relative;
+    }
+
+
+
+    .btn-responsive {
+        padding: 10px 20px;
+
+    }
+
+    .navbar {
+        margin-bottom: 502px!important;
+    }
+
+
+
+    .chicken-food-container {
+        padding: 0;
+    }
+
+    .chicken-food-description p {
+        font-size: 16px;
+        max-width: 364px;
+        margin-right: 58px;
+    }
+
+    .m-width {
+        max-width: 210px;
+    }
+
+    .list-group li a {
+        font-size: 24px;
+    }
+
+    .feedback__content::before {
+        top: 20%;
+    }
+
+    .feedback__users {
+        padding: 0;
+    }
+
+}
+
+@media (max-width: 576px) {
+    .btn-responsive {
+        display: none;
+    }
+
+    .state-standard__item p {
+        display: none;
+    }
+}
+
+@media (max-width: 576px) and (min-width: 1px){
+    .chicken-food__state-standard {
+        display: none;
+    }
+}
+@media (max-width: 320px) {
+    .position__row img {
+        max-width: 350px;
+        height: 600px;
+        display: none;
+    }
+
+    .bg-320px {
+        display: block!important;
+    }
+    .chicken-food__state-standard {
+        display: none;
+    }
+
+    .logo {
+        display: none!important;
+    }
+
+    .logo-320px {
+        display: block!important;
+    }
+
+    .navbar {
+        margin-bottom: 311px!important;
+    }
+
+    .main {
+        margin-bottom: 78px;
+    }
+
+    .m-width {
+        text-align: center;
+        max-width: 100%;
+    }
+
+    .chicken-food__title {
+        text-align: center;
+    }
+
+    .chicken-food__title h2 {
+        font-size: 30px;
+    }
+    .chicken-food__title h2 span::before {
+        top: calc(-315% + 86px);
+        left: -12%;
+    }
+
+    .chicken-food__title h3 {
+        font-size: 17px;
+        line-height: 30px;
+        text-transform: none;
+    }
+
+    .chicken-food-description p {
+        margin-right: 0;
+    }
+
+    .assortment__title {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .m-width h2 {
+        font-size: 22px;
+        line-height: 26px;
+        text-align: center;
+    }
+
+    .delicious__row h2 {
+        font-size: 30px;
+        text-align: center;
+        text-transform: none;
+    }
+}
