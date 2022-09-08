@@ -4,7 +4,49 @@
     }
 }
 
-@media  (max-width: 1400px) {
+@media (max-width: 1400px) {
+
+
+    .position__row img {
+        max-width: 819px;
+    }
+
+
+    /*header section*/
+    .logo {
+        width: 45px;
+        height: 63px;
+    }
+
+    /*header section*/
+    /*main section*/
+    .main {
+        margin-top: 8.875em;
+        margin-bottom: 15.375em;
+    }
+
+
+    .btn-style {
+        padding: 13px 23px;
+        font-size: 15px;
+    }
+
+    .main__row h1, h2, h3 {
+        font-size: 66px;
+        line-height: 73px;
+    }
+
+    /*main section*/
+
+
+    /*chicken-food section*/
+    .chicken-food {
+        padding-bottom: 192px;
+    }
+
+    .chicken-food__title h2 span::before {
+        top: calc(-59% + 24px);
+    }
 
 
     .btn-responsive {
@@ -14,45 +56,50 @@
     .phone-btn {
         display: flex;
     }
+
     .chicken-food {
         background-size: 327px;
     }
 
-    .chicken-food h1 {
-        font-size: 55px;;
+    .chicken-food-container {
+        justify-content: flex-end;
     }
 
     .chicken-food h2 {
-        font-size: 23px;
+        font-size: 55px;;
+    }
 
+    .chicken-food h3 {
+        font-size: 23px;
     }
 
     .chicken-food__state-standard {
         margin-left: 36px;
     }
 
-    .chicken-food__title h2 span::before {
-        top: calc(-76% + 36px);
-    }
 
     .state-standard__item p::before {
         width: 106px;
     }
 
-
+    .col-img {
+        max-width: 334px;
+        height: auto;
+    }
 
 }
 
 @media (max-width: 1330px) {
     .chicken-food {
         background-size: 200px;
-        background-position:  left;
+        background-position: left;
     }
 }
 
 @media (max-width: 1200px) {
 
 
+    /*nav section*/
     .nav-item {
         margin-right: 15px;
     }
@@ -61,32 +108,62 @@
         font-size: 12px;
     }
 
-    .position__row img {
-        max-width: 675px;
+    /*nav section end*/
+    /*main section*/
+    .three__bg::before {
+        bottom: 33px;
+        left: -23px;
     }
 
-
-
-    .btn-responsive {
-        display: none!important;
+    .main {
+        margin-top: 5.875em;
+        margin-bottom: 10.375em;
     }
 
+    .chicken-food h2 {
+        font-size: 44px;
+    }
+
+    .chicken-food__title h2 span::before {
+        top: -36%;
+        left: 9%;
+    }
+
+    .main__row h1, h2, h3 {
+        font-size: 56px;
+        line-height: 56px;
+    }
+
+    /*main section end*/
+    /*chicken section*/
+    .chicken-food__title h3 {
+        margin-bottom: 14px;
+        font-size: 19px;
+    }
+
+    .chicken-food-container {
+        flex-direction: row;
+        padding-left: 151px;
+    }
 
     .chicken-food {
         margin-bottom: 50px;
         padding-bottom: 50px;
     }
 
-    .chicken-food-container {
-        flex-direction: row;
-        padding-left: 145px;
-    }
+
     .chicken-food__state-standard {
         flex-direction: column;
         flex-wrap: wrap;
         margin-left: 32px;
 
     }
+
+    .col-img {
+        max-width: 269px;
+        height: auto;
+    }
+
     .chicken-food__state-standard p {
         margin-right: 20px;
     }
@@ -98,20 +175,39 @@
     .state-standard__item p {
         padding: 0;
     }
+
+    .right-bar {
+        margin-bottom: 89px;
+    }
+
+    /*chicken section end*/
+    .position__row img {
+        max-width: 675px;
+    }
+
+
+    .btn-responsive {
+        display: none;
+    }
+
+
     .feedback__bg {
         display: none;
     }
 }
 
-@media (min-width: 1000px){
+@media (min-width: 1000px) {
     .hidden {
         display: none;
     }
 
-
 }
 
 @media (max-width: 1000px) {
+
+    .container {
+        padding: 0 30px;
+    }
 
     .position__row img {
         max-width: 477px;
@@ -121,6 +217,7 @@
     .nav-hidden {
         display: none;
     }
+
 
     .chicken-food {
         background: none;
@@ -133,6 +230,7 @@
     .chicken-food__title h4 {
         text-align: left;
     }
+
     .chicken-food-container {
         padding: 0;
     }
@@ -140,28 +238,37 @@
     .chicken-food-description {
         text-align: left;
     }
+
     .chicken-food-description a {
         margin-bottom: 30px;
     }
 
 }
 
+
 @media (max-width: 768px) {
     body {
         position: relative;
     }
 
+    .container {
+        padding: 0 39px;
+    }
 
+    .position__row img {
+        max-width: 710px;
+        height: 870px;
+    }
 
     .btn-responsive {
         padding: 10px 20px;
+        display: block;
 
     }
 
     .navbar {
-        margin-bottom: 502px!important;
+        margin-bottom: 502px !important;
     }
-
 
 
     .chicken-food-container {
@@ -174,9 +281,6 @@
         margin-right: 58px;
     }
 
-    .m-width {
-        max-width: 210px;
-    }
 
     .list-group li a {
         font-size: 24px;
@@ -190,6 +294,67 @@
         padding: 0;
     }
 
+    /*main section*/
+    .main {
+        position: relative;
+        margin-bottom: 2.375em;
+    }
+
+    .main__row h1, h2, h3 {
+        font-size: 66px;
+        line-height: 73px;
+    }
+
+    .main__row p {
+        font-size: 14px;
+        line-height: 26px;
+    }
+
+    .main__bg {
+        display: block;
+        position: absolute;
+        bottom: 0;
+        right: 117px;
+    }
+
+    /*main section*/
+    /*chicken section*/
+    .right-bar {
+        margin: 0;
+    }
+
+    .hidden-768 {
+        display: none;
+    }
+
+    .visible-768 {
+        display: block;
+        font-family: 'Neue Metana Next Free Personal', serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 29px;
+        line-height: 22px;
+        color: #E12231;
+        margin-top: 50px;
+    }
+
+    /*chicken section*/
+    /*assortment section*/
+    .assortment__title {
+        font-size: 40px;
+    }
+
+    .m-width h2 {
+        font-size: 26px;
+        text-transform: none;
+    }
+
+    .m-width p {
+        font-size: 16px;
+    }
+
+    /*assortment section*/
+
 }
 
 @media (max-width: 576px) {
@@ -200,14 +365,60 @@
     .state-standard__item p {
         display: none;
     }
-}
 
-@media (max-width: 576px) and (min-width: 1px){
-    .chicken-food__state-standard {
+    .right-bar {
+        align-items: flex-end;
+    }
+
+    .col-img {
+        display: none;
+    }
+
+    .img-576 {
+        display: block;
+        width: 55px;
+    }
+
+    .chicken-food {
+
+    }
+    .chicken-food__title h3 {
+        font-size: 17px;
+    }
+    .visible-768 {
+        display: none;
+    }
+    .hidden-768 {
+        display: block;
+
+    }
+    .b-ml {
+        margin: 0;
+    }
+
+    .main__bg  {
         display: none;
     }
 }
+
+@media (max-width: 400px) {
+    .chicken-food h2 {
+        font-size: 1.7em;
+    }
+
+    .chicken-food__title h2 span::before {
+        top: calc(-75% + -9px);
+        left: 3%;
+    }
+}
+
+
 @media (max-width: 320px) {
+
+    .container {
+        padding: 0 15px;
+    }
+
     .position__row img {
         max-width: 350px;
         height: 600px;
@@ -215,22 +426,25 @@
     }
 
     .bg-320px {
-        display: block!important;
+        display: block !important;
     }
+
     .chicken-food__state-standard {
         display: none;
     }
 
-    .logo {
-        display: none!important;
-    }
-
     .logo-320px {
-        display: block!important;
+        width: 42px;
+        height: 42px;
     }
 
     .navbar {
-        margin-bottom: 311px!important;
+        margin-bottom: 311px !important;
+    }
+
+    .main__row h1, h2, h3 {
+        font-size: 56px;
+        line-height: 44px;
     }
 
     .main {
@@ -246,9 +460,11 @@
         text-align: center;
     }
 
+
     .chicken-food__title h2 {
         font-size: 30px;
     }
+
     .chicken-food__title h2 span::before {
         top: calc(-315% + 86px);
         left: -12%;
@@ -257,7 +473,6 @@
     .chicken-food__title h3 {
         font-size: 17px;
         line-height: 30px;
-        text-transform: none;
     }
 
     .chicken-food-description p {
@@ -279,5 +494,13 @@
         font-size: 30px;
         text-align: center;
         text-transform: none;
+    }
+
+    .chicken-food h2 {
+        font-size: 30px;
+    }
+
+    .img-576 {
+        display: none;
     }
 }
