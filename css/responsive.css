@@ -37,8 +37,6 @@
     }
 
     /*main section*/
-
-
     /*chicken-food section*/
     .chicken-food {
         padding-bottom: 192px;
@@ -382,21 +380,25 @@
     .chicken-food {
 
     }
+
     .chicken-food__title h3 {
         font-size: 17px;
     }
+
     .visible-768 {
         display: none;
     }
+
     .hidden-768 {
         display: block;
 
     }
+
     .b-ml {
         margin: 0;
     }
 
-    .main__bg  {
+    .main__bg {
         display: none;
     }
 }
@@ -479,6 +481,10 @@
         margin-right: 0;
     }
 
+    .assortment {
+        margin-bottom: 80px;
+    }
+
     .assortment__title {
         font-size: 30px;
         text-align: center;
@@ -503,4 +509,116 @@
     .img-576 {
         display: none;
     }
+
+    .chicken-food {
+        padding-bottom: 0;
+        margin-bottom: 80px;
+    }
+
+    .chicken-food-description a {
+        margin-bottom: 0;
+    }
+
+    .list-group {
+        margin-bottom: 30px;
+    }
+
+    .list-group li a {
+        font-size: 20px;
+    }
+
+    .list-group-item {
+        margin-left: 0;
+    }
+
+    .feedback {
+        margin-bottom: 80px;
+    }
+
+    .feedback__content h2 {
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 64px;
+    }
+
+    .feedback__content::before {
+        width: 24px;
+        height: 19px;
+        top: 70px;
+        left: -11px;
+    }
+
+
+    .feedback__content::after {
+        width: 24px;
+        height: 19px;
+        bottom: 18px;
+        right: -1px;
+    }
+
+    .feedback__users p {
+        font-size: 16px;
+        font-family: 'Neue Metana Next Free Personal', sans-serif;
+    }
+
+    .footer-section {
+        display: none;
+    }
+
+    .footer-mobile {
+        margin-top: 40px;
+        display: grid;
+    }
+
+    .footer-mobile ul li a {
+        font-family: 'Raleway', cursive;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 28px;
+        color: var(--bs-yellow);
+
+        text-transform: uppercase;
+    }
+
+    .footer-menu-mobile ul {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 16px;
+    }
+
+    .footer-menu-mobile li {
+        margin-right: 35px;
+    }
+
+    .footer-menu-mobile li:last-child {
+        margin-right: 0;
+    }
+
+    .footer-576-menu {
+        margin-bottom: 16px;
+    }
+
+    .footer-contact {
+        text-align: center;
+        background: url("/img/border.svg") bottom center no-repeat;
+
+    }
+
+    .footer-contact li a {
+        font-family: Roboto, sans-serif!important;
+        padding-left: 25px;
+        padding-bottom: 15px;
+    }
+
+    .phone {
+        background: url("/img/call.svg") no-repeat center left;
+       background-size: 17px;
+    }
+
+    .geo {
+        background: url("/img/geo.svg") no-repeat center left;
+        background-size: contain;
+    }
+
 }
