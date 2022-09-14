@@ -576,7 +576,7 @@ a {
 }
 
 .chicken-food {
-    background: url("/img/chiken-food.png") no-repeat;
+    background: url("../img/chiken-food.png") no-repeat;
     padding-bottom: 508px;
 }
 
