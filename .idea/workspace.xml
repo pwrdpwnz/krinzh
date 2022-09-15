@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e7279ecc-0530-4afb-a962-7a78bb99dbc6" name="Changes" comment="fix">
+    <list default="true" id="e7279ecc-0530-4afb-a962-7a78bb99dbc6" name="Changes" comment="end without footer">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/responsive.css" afterDir="false" />
@@ -27,17 +27,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Documents and Settings/react-app&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Documents and Settings/react-app",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\pwrq\Desktop\last-boostrap\img" />
@@ -79,7 +79,11 @@
       <workItem from="1662773721233" duration="2932000" />
       <workItem from="1662837994577" duration="1178000" />
       <workItem from="1663003070999" duration="83000" />
-      <workItem from="1663160824753" duration="2304000" />
+      <workItem from="1663160824753" duration="2368000" />
+      <workItem from="1663164230225" duration="111000" />
+      <workItem from="1663171342678" duration="618000" />
+      <workItem from="1663210382206" duration="233000" />
+      <workItem from="1663210640392" duration="5961000" />
     </task>
     <task id="LOCAL-00001" summary="123">
       <created>1662162813012</created>
@@ -123,7 +127,21 @@
       <option name="project" value="LOCAL" />
       <updated>1663161970559</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="fix responsive">
+      <created>1663163931657</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1663163931657</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add link to figma">
+      <created>1663164318110</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1663164318110</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,9 +161,11 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="123" />
     <MESSAGE value="before install owl carousel" />
-    <MESSAGE value="fix responsive" />
     <MESSAGE value="fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix" />
+    <MESSAGE value="fix responsive" />
+    <MESSAGE value="add link to figma" />
+    <MESSAGE value="end without footer" />
+    <option name="LAST_COMMIT_MESSAGE" value="end without footer" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

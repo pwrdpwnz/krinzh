@@ -265,7 +265,7 @@
     }
 
     .navbar {
-        margin-bottom: 502px !important;
+        margin-bottom: 502px;
     }
 
 
@@ -389,6 +389,7 @@
 
     .chicken-food__title h3 {
         font-size: 17px;
+        line-height: 30px;
     }
 
     .visible-768 {
@@ -422,6 +423,12 @@
 
 
 @media (max-width: 320px) {
+
+    .flex-reverse {
+        display: flex;
+        flex-direction: column;
+
+    }
 
     .container {
         padding: 0 15px;
@@ -480,7 +487,6 @@
 
     .chicken-food__title h3 {
         font-size: 17px;
-        line-height: 30px;
     }
 
     .chicken-food-description p {
@@ -571,51 +577,7 @@
         display: none;
     }
 
-    .footer-mobile {
-        margin-top: 40px;
-        display: grid;
-    }
 
-    .footer-mobile ul li a {
-        font-family: 'Raleway', cursive;
-        font-style: normal;
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 28px;
-        color: var(--bs-yellow);
-
-        text-transform: uppercase;
-    }
-
-    .footer-menu-mobile ul {
-        display: flex;
-        justify-content: center;
-        margin-bottom: 16px;
-    }
-
-    .footer-menu-mobile li {
-        margin-right: 35px;
-    }
-
-    .footer-menu-mobile li:last-child {
-        margin-right: 0;
-    }
-
-    .footer-576-menu {
-        margin-bottom: 16px;
-    }
-
-    .footer-contact {
-        text-align: center;
-        background: url("/img/border.svg") bottom center no-repeat;
-
-    }
-
-    .footer-contact li a {
-        font-family: Roboto, sans-serif!important;
-        padding-left: 25px;
-        padding-bottom: 15px;
-    }
 
     .phone {
         background: url("/img/call.svg") no-repeat center left;
@@ -627,4 +589,49 @@
         background-size: contain;
     }
 
+}
+
+
+@media (min-width: 410px) and (max-width: 592px) {
+    .position__row img {
+        height: 650px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 410px) {
+    .position__row img {
+        height: 470px;
+    }
+}
+
+@media (min-width: 1px) and (max-width: 577px) {
+    .footer-mobile {
+        display: grid;
+    }
+    .footer-section {
+        display: none;
+    }
+
+}
+
+@media (max-width: 366px) {
+    .delicious__row h2 {
+        font-size: 60px;
+    }
+    .main__row h1, h2, h3 {
+        font-size: 61px;
+    }
+    .navbar {
+        margin-bottom: 272px;
+    }
+    .main__row {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 1px) and (max-width: 352px) {
+    .nav-item {
+        margin-right: -24px;
+    }
 }
