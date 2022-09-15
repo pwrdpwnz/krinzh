@@ -1073,3 +1073,99 @@ ul {
 .footer-widget {
     display: flex;
 }
+
+.breadcrumb-item {
+    position: relative;
+
+}
+
+.breadcrumb-item a {
+    color: var(--bs-black);
+    font-family: Raleway, sans-serif;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+    content: '';
+    background: url("../img/dot.png") no-repeat center;
+    width: 15px;
+    height: 100%;
+}
+
+
+
+.breadcrumb-item.active {
+    color: var(--bs-yellow);
+    font-family: Raleway, sans-serif;
+}
+
+.row__content h1 {
+    font-family: 'Neucha', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 94px;
+    line-height: 115px;
+    text-transform: uppercase;
+    color: #3c3c3c;
+
+}
+
+.row__content p {
+    font-family: 'Raleway', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.row__image {
+    position: relative;
+}
+
+.img-absolute {
+    position: absolute;
+    left: 0;
+}
+
+.row__content h1 {
+    position: relative;
+}
+
+.row__content h1::before {
+    content: '';
+    position: absolute;
+    right: 236px;
+    top: -74px;
+    background: url("../img/tomatoes.png");
+    width: 216px;
+    height: 225px;
+    transform: rotate(7deg);
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 75px;
+    flex-wrap: wrap;
+    max-width: 1363px;
+    margin: 0 auto;
+}
+
+.bg-yellow {
+    background: var(--bs-yellow);
+    border: 4px dashed #EAEAEA;
+    border-radius: 15px;
+}
+
+.card-body {
+    display: flex;
+    font-family: 'Neue Metana Next Free Personal', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    color: #FCFCFC;
+}
+
+
+.menu__section {
+    margin-bottom: 80px;
+}

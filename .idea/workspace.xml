@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e7279ecc-0530-4afb-a962-7a78bb99dbc6" name="Changes" comment="end without footer">
+    <list default="true" id="e7279ecc-0530-4afb-a962-7a78bb99dbc6" name="Changes" comment="end index.html">
+      <change afterPath="$PROJECT_DIR$/recipes.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/responsive.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +83,7 @@
       <workItem from="1663164230225" duration="111000" />
       <workItem from="1663171342678" duration="618000" />
       <workItem from="1663210382206" duration="233000" />
-      <workItem from="1663210640392" duration="5961000" />
+      <workItem from="1663210640392" duration="11017000" />
     </task>
     <task id="LOCAL-00001" summary="123">
       <created>1662162813012</created>
@@ -141,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663164318110</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="end index.html">
+      <created>1663216840884</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1663216840884</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,7 +172,8 @@
     <MESSAGE value="fix responsive" />
     <MESSAGE value="add link to figma" />
     <MESSAGE value="end without footer" />
-    <option name="LAST_COMMIT_MESSAGE" value="end without footer" />
+    <MESSAGE value="end index.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="end index.html" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
