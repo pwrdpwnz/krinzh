@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e7279ecc-0530-4afb-a962-7a78bb99dbc6" name="Changes" comment="end recipes/fix">
-      <change afterPath="$PROJECT_DIR$/recipe.html" afterDir="false" />
+    <list default="true" id="e7279ecc-0530-4afb-a962-7a78bb99dbc6" name="Changes" comment="end recipe">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/responsive.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recipes.html" beforeDir="false" afterPath="$PROJECT_DIR$/recipes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/recipes.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/recipes.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,19 +27,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Documents and Settings/react-app",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Documents and Settings/react-app&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\pwrq\Desktop\gorit\pages" />
       <recent name="C:\Users\pwrq\Desktop\last-boostrap\img" />
     </key>
   </component>
@@ -95,7 +94,8 @@
       <workItem from="1663383571599" duration="207000" />
       <workItem from="1663383791844" duration="7000" />
       <workItem from="1663383847158" duration="2553000" />
-      <workItem from="1663386621661" duration="1585000" />
+      <workItem from="1663386621661" duration="3046000" />
+      <workItem from="1663449403946" duration="305000" />
     </task>
     <task id="LOCAL-00001" summary="123">
       <created>1662162813012</created>
@@ -181,7 +181,21 @@
       <option name="project" value="LOCAL" />
       <updated>1663374287931</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="end recipe">
+      <created>1663388485688</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1663388485688</updated>
+    </task>
+    <task id="LOCAL-00014" summary="end recipe">
+      <created>1663388510450</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1663388510450</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,7 +223,8 @@
     <MESSAGE value="check" />
     <MESSAGE value="end recipes" />
     <MESSAGE value="end recipes/fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="end recipes/fix" />
+    <MESSAGE value="end recipe" />
+    <option name="LAST_COMMIT_MESSAGE" value="end recipe" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
