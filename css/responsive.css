@@ -6,6 +6,9 @@
 
 @media (max-width: 1400px) {
 
+    .main-recipes {
+        margin-bottom: 130px;
+    }
 
     .position__row img {
         max-width: 819px;
@@ -95,7 +98,9 @@
 }
 
 @media (max-width: 1200px) {
-
+    .main-recipes {
+        margin-bottom: 60px;
+    }
 
     /*nav section*/
     .nav-item {
@@ -192,6 +197,28 @@
     .feedback__bg {
         display: none;
     }
+
+    .row__image {
+        width: 85%;
+        left: 81px;
+        top: 0;
+    }
+
+    .img-relative {
+        width: 100%;
+    }
+
+    .img-absolute {
+        width: 100%;
+    }
+
+    .row__content h1 {
+        font-size: 80px;
+    }
+
+    .row__content p {
+        font-size: 20px;
+    }
 }
 
 @media (min-width: 1000px) {
@@ -266,6 +293,10 @@
 
     .navbar {
         margin-bottom: 502px;
+    }
+
+    .mb-none {
+        margin-bottom: 135px;
     }
 
 
@@ -352,7 +383,24 @@
     }
 
     /*assortment section*/
+    .row__image {
+        width: 451px;
+    }
 
+    .s-768 {
+        display: none;
+    }
+
+    .mb-none {
+        margin-bottom: 60px;
+    }
+
+    .row__content p {
+        font-size: 18px;
+    }
+    .footer-logo {
+        display: none;
+    }
 }
 
 @media (max-width: 700px) and (min-width: 576px) {
@@ -398,7 +446,6 @@
 
     .hidden-768 {
         display: block;
-
     }
 
     .b-ml {
@@ -407,6 +454,24 @@
 
     .main__bg {
         display: none;
+    }
+
+    .row__content p {
+        font-size: 16px;
+    }
+
+    .row__image {
+        width: 364px;
+        left: 62px;
+        top: 0;
+    }
+
+    .row__content h1::before {
+        visibility: hidden;
+    }
+    .img-absolute {
+        right: 0;
+        top: auto;
     }
 }
 
@@ -423,7 +488,16 @@
 
 
 @media (max-width: 320px) {
-
+    .main-recipes {
+        margin-bottom: 30px;
+    }
+    .row {
+        text-align: center;
+    }
+    .row__content h1 {
+        font-size: 58px;
+        text-align: center;
+    }
     .flex-reverse {
         display: flex;
         flex-direction: column;
@@ -578,10 +652,9 @@
     }
 
 
-
     .phone {
         background: url("/img/call.svg") no-repeat center left;
-       background-size: 17px;
+        background-size: 17px;
     }
 
     .geo {
@@ -589,8 +662,34 @@
         background-size: contain;
     }
 
+    .mb-none {
+        margin-bottom: 50px !important;
+    }
+
+
 }
 
+@media (max-width: 564px) {
+    .row__content {
+        padding-top: 71px;
+    }
+
+    .row__image {
+        width: 100%;
+    }
+
+    .reverse-sm {
+        flex-direction: column;
+    }
+
+    .order-sm {
+        order: 1;
+    }
+
+    .row__image {
+        position: initial;
+    }
+}
 
 @media (min-width: 410px) and (max-width: 592px) {
     .position__row img {
@@ -608,6 +707,7 @@
     .footer-mobile {
         display: grid;
     }
+
     .footer-section {
         display: none;
     }
@@ -618,15 +718,21 @@
     .delicious__row h2 {
         font-size: 60px;
     }
+
     .main__row h1, h2, h3 {
         font-size: 61px;
     }
+
     .navbar {
         margin-bottom: 272px;
     }
+
     .main__row {
         display: flex;
         flex-direction: column;
+    }
+    .mb-none {
+        margin-bottom: 50px;
     }
 }
 

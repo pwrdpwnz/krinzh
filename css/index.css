@@ -1076,6 +1076,7 @@ ul {
 
 .breadcrumb-item {
     position: relative;
+    margin-left: -20px;
 
 }
 
@@ -1086,27 +1087,21 @@ ul {
 
 .breadcrumb-item + .breadcrumb-item::before {
     content: '';
-    background: url("../img/dot.png") no-repeat center;
     width: 15px;
     height: 100%;
+    background: url("../img/dot.png") no-repeat center;
+    margin-left: 10px;
 }
-
 
 
 .breadcrumb-item.active {
     color: var(--bs-yellow);
     font-family: Raleway, sans-serif;
+    cursor: not-allowed;
 }
 
-.row__content h1 {
-    font-family: 'Neucha', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 94px;
-    line-height: 115px;
-    text-transform: uppercase;
-    color: #3c3c3c;
-
+.main-recipes {
+    margin-bottom: 150px;
 }
 
 .row__content p {
@@ -1119,22 +1114,39 @@ ul {
 
 .row__image {
     position: relative;
+    z-index: -1;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .img-absolute {
+    width: 100%;
     position: absolute;
     left: 0;
+    top: 0;
+}
+
+.img-relative {
+    width: 100%;
 }
 
 .row__content h1 {
     position: relative;
+    display: inline-block;
+    font-family: 'Neucha', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 94px;
+    line-height: 115px;
+    text-transform: uppercase;
+    color: #3c3c3c;
 }
 
 .row__content h1::before {
     content: '';
     position: absolute;
-    right: 236px;
-    top: -74px;
+    right: calc(-228px + 30px);
+    bottom: -28%;
     background: url("../img/tomatoes.png");
     width: 216px;
     height: 225px;
@@ -1168,4 +1180,8 @@ ul {
 
 .menu__section {
     margin-bottom: 80px;
+}
+
+.reverse-sm {
+    display: flex;
 }
