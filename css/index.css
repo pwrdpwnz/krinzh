@@ -1185,3 +1185,51 @@ ul {
 .reverse-sm {
     display: flex;
 }
+
+.main-recipe {
+    margin-top: 186px;
+}
+
+.main-recipe__row h1 {
+    position: relative;
+    display: inline-block;
+    font-family: 'Neucha', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 94px;
+    line-height: 115px;
+    text-transform: uppercase;
+    color: #3c3c3c;
+}
+
+.mw-size {
+    max-width: 645px;
+}
+
+.main-recipe-content {
+    margin-top: 105px;
+}
+
+.main-recipe-content h2{
+    font-family: 'Raleway', serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 28px;
+    color: var(--bs-yellow);
+    text-transform: none;
+}
+
+.main-recipe-content ul {
+    margin: 60px 18px;
+}
+
+.main-recipe-content ul li {
+    list-style: decimal;
+}
+
+.main-recipe-content ul li p {
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
